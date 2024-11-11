@@ -1,9 +1,9 @@
-from flask import Flask, request, render_template
-import pandas as pd
+from flask import Flask, request, render_template # type: ignore
+import pandas as pd # type: ignore
 import random
-from flask_sqlalchemy import SQLAlchemy
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from flask_sqlalchemy import SQLAlchemy # type: ignore
+from sklearn.feature_extraction.text import TfidfVectorizer # type: ignore
+from sklearn.metrics.pairwise import cosine_similarity # type: ignore
 
 app = Flask(__name__)
 
